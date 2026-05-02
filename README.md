@@ -17,4 +17,4 @@ Iniciei estes estudos enquanto aguardo a continuidade do curso Fundamentos de Da
 
 Desenvolver habilidades práticas para atuar futuramente como DBA (Administrador de Banco de Dados).
 
-🚀 Em aprendizado contínuo.
+🚀 Em aprendizado contínuo
