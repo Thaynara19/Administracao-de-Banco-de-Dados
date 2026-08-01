@@ -1,5 +1,7 @@
 Use master ;
     create login [usr_Mariana] with password = 'Auporte#2026';
+    
+    use LaboratorioDBA;
     create user [usr_Mariana] for login [usr_Mariana];
 
         if not exists (select*from sys.database_principals where name = 'role_suporte')
