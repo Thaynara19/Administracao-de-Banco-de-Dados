@@ -34,7 +34,7 @@ go
     backup log DB_Producao
     to disk = 'C:\Backups\DB_Producao_full.trn'
     with init,name = 'Backup de Log';
-    go  
+    go 
 
         use master;
         restore filelistonly 
@@ -47,7 +47,7 @@ go
                move 'DB_Producao' to 'C:\Backups\DB_Producao_Homolog.mdf',
                move 'DB_Producao_log' to 'C:\Backups\DB_Producao_Homolog_log.ldf',
                replace;
-               go  
+               go 
 
                 use DB_Producao_Homolog;
                 go
