@@ -1,6 +1,6 @@
---Create database Treino;
+Create database Treino;
 
-    /*create table Clientes(
+    create table Clientes(
         id int primary key identity(1,1),
         nome varchar (100) not null
     );
@@ -8,7 +8,7 @@
     insert into Clientes (nome) values 
     ('Daniel'),
     ('Rebeca'),
-    ('Andrade');*/
+    ('Andrade');
 
     use Treino;
     go
